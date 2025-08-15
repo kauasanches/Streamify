@@ -19,15 +19,33 @@ body {
     padding: 10px;
     text-align: center;
     color: aquamarine;
+}
 
-    & h1 {
-        font-family: 'Poppins', sans-serif;
-    }
+h1 {
+    font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
 }
 
 .video-inicio {
     display: flex;
     justify-content: center;
     padding: 70px 80px;
-    background-color: rgb(255, 175, 175);
+    background-color: rgb(70, 70, 70);
+    border-top: solid 1px aquamarine;
+    border-bottom: solid 1px aquamarine;
+}
+
+.video-inicio-texto {
+    margin-right: 30px;
+
+    & h2 {
+        margin-bottom: 10px;
+    }
+}
+
+.video-inicio-iframe {
+    box-shadow: black 0px 0px 10px
 }
