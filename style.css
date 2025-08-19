@@ -49,3 +49,23 @@ h2 {
 .video-inicio-iframe {
     box-shadow: black 0px 0px 10px
 }
+
+.filmes {
+    padding: 0px 20px;
+}
+
+.box-filme img {
+    width: 300px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.box-filme img:hover {
+    transform: scale(1.05);
+    transition: .2s;
+}
+
+.container-filmes {
+    display: flex;
+    overflow-x: auto;
+}
